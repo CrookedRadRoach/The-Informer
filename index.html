@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>New webpage</title>
+      <link href="https://fonts.googleapis.com/css?family=Cinzel|Libre+Caslon+Display&display=swap" rel="stylesheet">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <style>
+          *{
+            margin:0;
+            padding:0;
+          }
+            body{
+                font-family:arial;
+                color:rgb(0, 0, 0);
+                background:rgb(237, 237, 237);
+            }#header{
+                background: rgb(170,170,170); 
+                border-bottom: 5px solid rgb(55,55,55);
+                color:rgb(255, 255, 255);
+                width:100%;
+              text-align:center;
+              font-family:Cinzel;
+              font-size:20px;
+            }
+          #heading{
+            font-size:35px;
+            padding:30px;
+          }
+          #header nav{
+            background:rgb(30,30,30);
+            font-family:'Libre Caslon Display';
+          }
+          #header nav a{
+          color:rgb(230,230,230);
+          text-decoration:none;
+          margin-right:10px;
+          }
+          p{
+            padding:10px;
+          }
+      </style>
+    </head>
+    <body>
+    <div class = "outside">
+    <div id="header" class="inside">
+    <h1 id="heading">The Informer</h1>
+      <nav>
+      <a href="javascript: changePage(1)">Home</a>
+            <a href="javascript: changePage(1)">Security & Privacy</a>
+            <a href="javascript: changePage(1)">How to's</a>
+            <a href="javascript: changePage(1)">Deals</a>
+      </nav>
+    </div>
+      </div>
+    <div class="page">
+        <br><br><br><br>
+        <h2>The Ulimate Guide to Privacy on the Modern Web</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Anonymous.png/300px-Anonymous.png" width="288" height="188">
+        <p>There is tracking everywhere we look. Operating systems, social media, even on local news websites. Everywhere on the modern web that you go, tracking will come along with you. "Is there any way I can defend against tracking?," you might ask. Well, of course! There are many ways to minimize your digital footprint.
+<br><br>
+First up is Ad-blocking. All those pesky ads that try and catch your attention are not only annoying, but they are also a perfect way of tracking your browsing habits. Large Corporations will say this is only to show you "relevant ads." The problem is not showing you relevant ads, it's that you're the product! They will sell your data to the highest bidder. Data brokerage is something that advertising companies all around the world want to keep as secret as possible.
+<br><br>
+There is only one way to stop advertising companies from having this kind of power, an ad-blocker. Some of the best are Ublock Origin, Nano Ad-blocker(a fork of Ublock Origin) and Disconnect. These are just browser-based extensions that can be added to popular browsers such as Chromium or Firefox.
+<br><br>
+The more intriguing option (in my opinion) is a DNS level ad-blocker. Pihole is a great DNS level ad-blocker that can be used across your entire network. Note that is does go through an external DNS server such as Cloudflare (1.1.1.1), Google (8.8.8.8), or DNS Watch (84.200.69.80), but this can be fixed with a recursive DNS server such as Unbound.
+<br><br>
+If you are out and about on your smartphone and are using mobile data, there are still ways to protect yourself. On Android there is an app called Blokada that as the name suggest block ads (note this does require a vpn connection, so you won't be able to use an actual vpn). It will do this system-wide, so all your favorite apps and games will be ad-free as well. You could also use something like AdHell or AdAway which both require root access while Blokada does not.
+<br><br>
+For IOS there aren't any options as far as system wide ad-blocking (as far as I know), but you can download Snowhaze if you want a great open-source ad-blocking browser.
+<br><br>
+Next we want to talk about using a VPN. There are many VPN's out there, but many that pledge to protect privacy and not to keep logs actually don't keep their promises. Some VPN providers actually keep logs of what you do and sell it to 3rd parties, much like advertising companies sell your browsing habits. Some of the best known providers that don't keep logs are PIA (Private Internet Access), Express VPN, Perfect Privacy, NordVPN, and VyprVPN. A good VPN is essential to staying secure on the web. This will hide your IP so that the site you are visiting doesn't know your location.
+<br><br>
+If you really want to stay private you can look into VPN + Tor. Tor is free and open-source software for enabling anonymous communication. The name is derived from an acronym for the original software project name "The Onion Router". Tor directs Internet traffic through a free, worldwide, volunteer overlay network consisting of more than seven thousand relays to conceal a user's location and usage from anyone conducting network surveillance or traffic analysis.
+<br><br>
+The next way to stay more private on the web is to use a new protocol called DoH. This will encrypt your DNS queries so no one can snoop in on what you are browsing via DNS queries. If you have Unbound, you may be wondering how this will be beneficial to you. DoH can also can help to increase the speed of your DNS queries. DNSCrypt is a great project that will help you with this.
+<br><br>
+This is all great, but you will also need to use different software. This will prevent big corporations even further from tracking what you do.
+<br><br>
+You can use LibreOffice or OpenOffice for daily document writing. Please note that as of August 5th there is a major security vulnerability in LibreOffice that allows hackers to take control of exposed devices. You can use Firefox or a fork of Firefox such as Pale moon or Waterfox for web browsing (make sure to have the latest version of Firefox). 
+<br><br>
+If you are a beginner I suggest using using zorin os or ubuntu as your operating system. They are both easy to use and similar to windows. If you have a lower-end computer running say Windows XP, I suggest you get lubuntu, the light version of ubuntu. You can use a social media such as mastodon and email clients such as mailpile, thunderbird, and mailspring.
+<br><br>
+That's all folks! Good luck on your privacy ventures!</p>
+    </div>
+    </body>
+</html>
